@@ -1,5 +1,7 @@
 # 🐠 Dory
-
+[![GitHub](https://img.shields.io/github/license/Nembie/Esso?style=flat-square)](LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/Nembie/dory?style=flat-square)](Issues)
+[![Code quality](https://img.shields.io/scrutinizer/quality/g/Nembie/dory?style=flat-square)](Code)
 
 Dory is a lightweight and easy-to-use library for managing global values in React Native applications. It provides a simple API to set, get, and listen for changes to global values, allowing efficient state management across components.
 
