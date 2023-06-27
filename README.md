@@ -1,11 +1,6 @@
 # 🐠 Dory
 
 
-[![GitHub](https://img.shields.io/github/license/Nembie/dory?style=flat-square)](License)
-[![GitHub issues](https://img.shields.io/github/issues/Nembie/dory?style=flat-square)](Issues)
-[![Build](https://img.shields.io/scrutinizer/build/g/Nembie/dory?style=flat-square)](Build)
-[![Build](https://img.shields.io/scrutinizer/quality/g/Nembie/dory?style=flat-square)](Code)
-
 Dory is a lightweight and easy-to-use library for managing global values in React Native applications. It provides a simple API to set, get, and listen for changes to global values, allowing efficient state management across components.
 
 With Dory, you can easily share data and trigger updates between different parts of your application without the need for complex prop drilling or state lifting. It simplifies the process of handling shared data and promotes cleaner and more modular code.
@@ -29,7 +24,7 @@ Install the package using Yarn:
 Here's a basic example of how to use Dory:
 
 ```javascript
-import { Dory } from 'react-native-dory';
+import Dory from 'react-native-dory';
 
 // Set a global value
 Dory.set('username', 'JohnDoe');
