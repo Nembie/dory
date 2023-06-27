@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "jsx": "react-native",
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "types": ["jest", "react-native"],
+      "typeRoots": ["./node_modules/@types"],
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src", "__tests__"]
+  }
+  
