@@ -20,6 +20,9 @@ Install the package using Yarn:
 
 ```yarn add react-native-dory```
 
+or using npm:
+
+```npm install react-native-dory```
 
 ## 🖥️ Usage
 
