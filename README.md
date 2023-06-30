@@ -52,8 +52,77 @@ unsubscribe();
 ```
 
 ## ⚙️ Methods
+#### ```set(key: string, value: any): void```
+Set a global value.
 
-TODO
+* key (string): The key to associate with the value.
+* value (any): The value to be stored.
+
+
+----
+
+#### ```get(key: string): any```
+Get a global value.
+
+* key (string): The key associated with the value.
+
+
+Returns: The value associated with the key.
+
+----
+
+
+#### ```remove(key: string): void```
+Remove a global value.
+
+* key (string): The key associated with the value to be removed.
+
+----
+
+#### ```removeAll(): void```
+Remove all global values.
+
+----
+
+#### ```has(key: string): boolean```
+Check if a key exists in the global values.
+
+* key (string): The key to check.
+
+Returns: True if the key exists, false otherwise.
+
+----
+
+#### ```getAll(): { [key: string]: any }```
+Get all global values.
+
+Returns: An object containing all the global values.
+
+----
+
+#### ```addChangeListener(callback: (key: string, value: any) => void): void```
+Add a change event listener.
+
+* callback (Function): The callback function to be invoked when a value changes.
+
+----
+
+#### ```removeChangeListener(callback: (key: string, value: any) => void): void```
+Remove a change event listener.
+
+* callback (Function): The callback function to be removed from the change event.
+
+----
+
+#### ```addListenerOnce(callback: (key: string, value: any) => void): void```
+Add a change event listener that only triggers once.
+
+* callback (Function): The callback function to be invoked when a value changes.
+
+----
+
+#### ```removeAllListeners(): void```
+Remove all change event listeners.
 
 
 
